@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shirlee's Ritual Society | Subscription</title>
+<meta name="description" content="Discover your Shirlee's Essentials self-care ritual and make it part of your monthly routine.">
+<style>
+:root{
+  --green:#123d32; --green2:#1d5546; --ivory:#f7f2e8; --cream:#fffaf2;
+  --gold:#c9a35b; --ink:#1d2421; --muted:#6e716c; --line:#ddd3c3;
+}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;background:var(--ivory);color:var(--ink);font-family:Arial,Helvetica,sans-serif}
+.container{width:min(1120px,92%);margin:auto}
+.hero{background:radial-gradient(circle at 75% 15%,#315f50 0,#123d32 38%,#0b2c24 100%);color:#fff;padding:28px 0 86px}
+nav{display:flex;justify-content:space-between;align-items:center}
+.logo{font-family:Georgia,serif;letter-spacing:.08em;font-size:18px}.navcta{border:1px solid #d9bf83;color:#fff;padding:10px 16px;border-radius:999px;text-decoration:none;font-size:12px;letter-spacing:.08em}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:60px;align-items:center;padding-top:75px}
+.eyebrow{color:#e3c981;letter-spacing:.22em;font-size:11px;text-transform:uppercase}
+h1,h2,h3{font-family:Georgia,"Times New Roman",serif;font-weight:400}
+h1{font-size:clamp(48px,7vw,86px);line-height:.95;margin:18px 0 24px}
+.hero p{color:#e9e4da;line-height:1.8;max-width:560px}
+.hero-card{min-height:390px;border:1px solid rgba(220,195,137,.35);background:linear-gradient(145deg,rgba(255,255,255,.10),rgba(255,255,255,.025));display:flex;align-items:center;justify-content:center;padding:40px}
+.hero-card-inner{text-align:center}.hero-card .big{font-family:Georgia,serif;font-size:34px;color:#f1dca5}.hero-card small{display:block;color:#ddd;margin-top:12px;letter-spacing:.12em;text-transform:uppercase}
+.btn{display:inline-block;background:var(--gold);color:#132b24;text-decoration:none;padding:15px 24px;border-radius:999px;font-weight:700;font-size:12px;letter-spacing:.08em;text-transform:uppercase;border:0;cursor:pointer}
+.section{padding:85px 0}.section-head{text-align:center;max-width:720px;margin:0 auto 48px}.section-head h2{font-size:48px;margin:12px 0}.section-head p{color:var(--muted);line-height:1.8}
+.rituals{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+.ritual{background:var(--cream);border:1px solid var(--line);padding:30px;position:relative;transition:.2s}
+.ritual:hover{transform:translateY(-3px);box-shadow:0 15px 35px rgba(40,30,10,.08)}
+.ritual.featured{border-color:var(--gold)}
+.tag{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--green2)}
+.ritual h3{font-size:31px;margin:10px 0}.price{font-size:27px;color:var(--green);font-family:Georgia,serif}.value{font-size:12px;color:var(--muted);margin:6px 0 22px}.ritual ul{padding-left:18px;color:#555;line-height:1.9;font-size:14px}.ritual .choose{margin-top:18px}
+#builder{background:#fffaf3}.builder{display:grid;grid-template-columns:1fr .85fr;gap:50px;align-items:start}
+.panel{background:#fff;border:1px solid var(--line);padding:34px}
+label{display:block;font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:#65645e;margin:22px 0 8px}
+select,input{width:100%;padding:14px;border:1px solid #cfc5b5;background:#fffdf8;font:inherit;color:var(--ink)}
+.selected{background:var(--green);color:white;padding:28px;margin-bottom:20px}.selected small{color:#cfe0d9;letter-spacing:.13em;text-transform:uppercase}.selected h3{font-size:32px;margin:8px 0}.total{font-family:Georgia,serif;font-size:31px;color:#e5c777}
+.summary{background:var(--ivory);border:1px solid var(--line);padding:25px;position:sticky;top:20px}.summary h3{font-size:28px;margin-top:0}.summary-row{display:flex;justify-content:space-between;gap:20px;padding:10px 0;border-bottom:1px solid var(--line);font-size:14px}.summary-row:last-of-type{border-bottom:0}.whatsapp{display:block;text-align:center;margin-top:22px;background:var(--green);color:#fff;padding:16px;text-decoration:none;font-weight:700;letter-spacing:.06em;border-radius:999px}
+.note{font-size:12px;color:var(--muted);line-height:1.7;margin-top:15px}
+.faq{max-width:800px;margin:auto}.faq details{border-bottom:1px solid var(--line);padding:20px 0}.faq summary{cursor:pointer;font-family:Georgia,serif;font-size:20px}.faq p{color:var(--muted);line-height:1.7}
+footer{background:#0b2c24;color:#ddd;padding:45px 0;text-align:center}.footer-logo{font-family:Georgia,serif;color:#fff;font-size:22px}.footer-small{font-size:12px;color:#aaa;margin-top:12px}
+@media(max-width:800px){.hero-grid,.builder{grid-template-columns:1fr}.rituals{grid-template-columns:1fr}.hero{padding-bottom:60px}.hero-grid{padding-top:55px}.summary{position:static}}
+</style>
+</head>
+<body>
+
+<header class="hero">
+<div class="container">
+<nav>
+  <div class="logo">SHIRLEE'S ESSENTIALS</div>
+  <a class="navcta" href="#builder">JOIN THE RITUAL</a>
+</nav>
+<div class="hero-grid">
+  <div>
+    <div class="eyebrow">The Shirlee's Ritual Society</div>
+    <h1>Your self-care.<br>Made a ritual.</h1>
+    <p>Choose a ritual designed around the way you want to feel. Select your favourite package, choose your commitment, and make your Shirlee's Essentials routine something you look forward to.</p>
+    <a class="btn" href="#rituals">Explore Rituals</a>
+  </div>
+  <div class="hero-card">
+    <div class="hero-card-inner">
+      <div class="big">A little luxury,<br>on repeat.</div>
+      <small>Curated by Shirlee's Essentials</small>
+    </div>
+  </div>
+</div>
+</div>
+</header>
+
+<section class="section" id="rituals">
+<div class="container">
+<div class="section-head">
+  <div class="eyebrow">Choose your ritual</div>
+  <h2>Which one feels like you?</h2>
+  <p>Every ritual is built to make self-care easier to maintain. Click <b>Choose this ritual</b> and your selection will automatically appear in the order builder below.</p>
+</div>
+
+<div class="rituals">
+  <article class="ritual">
+    <div class="tag">Everyday reset</div><h3>The Shower Ritual</h3>
+    <div class="price">KSh 1,199 / month</div>
+    <div class="value">One KSh 100 subscription advantage from catalogue retail.</div>
+    <ul><li>500ml Shower Gel</li><li>Bathing Scrunchie</li><li>Choose your preferred shower gel</li></ul>
+    <button class="btn choose" onclick="selectRitual('The Shower Ritual')">Choose this ritual</button>
+  </article>
+
+  <article class="ritual featured">
+    <div class="tag">The hero ritual</div><h3>The Signature Ritual</h3>
+    <div class="price">KSh 3,797 / month</div>
+    <div class="value">Shower Gel + Shea Butter + 100g Scented Candle + KSh 100 subscription advantage.</div>
+    <ul><li>500ml Shower Gel</li><li>100g Shea Butter Body Butter</li><li>100g Scented Candle</li><li>Bathing Scrunchie</li></ul>
+    <button class="btn choose" onclick="selectRitual('The Signature Ritual')">Choose this ritual</button>
+  </article>
+
+  <article class="ritual">
+    <div class="tag">Evening ritual</div><h3>The Unwind Ritual</h3>
+    <div class="price">KSh 2,498 / month</div>
+    <div class="value">Shea Butter + 100g Scented Candle + KSh 100 subscription advantage.</div>
+    <ul><li>100g Shea Butter Body Butter</li><li>100g Scented Candle</li><li>Designed for your evening reset</li></ul>
+    <button class="btn choose" onclick="selectRitual('The Unwind Ritual')">Choose this ritual</button>
+  </article>
+
+  <article class="ritual">
+    <div class="tag">Private collection</div><h3>The Private Ritual</h3>
+    <div class="price">KSh 5,097 / month</div>
+    <div class="value">Premium curated ritual with KSh 100 subscription advantage.</div>
+    <ul><li>500ml Shower Gel</li><li>100g Shea Butter Body Butter</li><li>200g Scented Candle</li><li>Bathing Scrunchie</li></ul>
+    <button class="btn choose" onclick="selectRitual('The Private Ritual')">Choose this ritual</button>
+  </article>
+</div>
+</div>
+</section>
+
+<section class="section" id="builder">
+<div class="container">
+<div class="section-head">
+  <div class="eyebrow">Make it yours</div>
+  <h2>Build your subscription.</h2>
+  <p>Choose the ritual, commitment and preferences. When you're ready, WhatsApp will open with a complete pre-filled order message.</p>
+</div>
+
+<div class="builder">
+<div class="panel">
+  <div class="selected">
+    <small>Selected ritual</small>
+    <h3 id="selectedRitual">Choose a ritual above</h3>
+    <div id="selectedDescription">Your package will appear here.</div>
+  </div>
+
+  <label for="billing">Commitment</label>
+  <select id="billing" onchange="updateSummary()">
+    <option value="1">Monthly · 1 month</option>
+    <option value="3">Quarterly · 3 months</option>
+    <option value="6">Half-year · 6 months</option>
+    <option value="12">Annual · 12 months</option>
+  </select>
+
+  <label for="scent">Preferred shower gel / scent</label>
+  <select id="scent" onchange="updateSummary()">
+    <option>Rain Bath</option>
+    <option>Pampering Vanilla</option>
+    <option>Rich Fruits</option>
+    <option>Caramel Drizzle</option>
+  </select>
+
+  <label for="candle">Preferred candle scent (where included)</label>
+  <select id="candle" onchange="updateSummary()">
+    <option>Decadent Coffee</option>
+    <option>Creamy Vanilla</option>
+    <option>Blue Wind</option>
+    <option>Patchouli</option>
+  </select>
+
+  <label for="name">Your name</label>
+  <input id="name" placeholder="e.g. Mary" oninput="updateSummary()">
+
+  <label for="location">Delivery / collection location</label>
+  <input id="location" placeholder="e.g. Nairobi" oninput="updateSummary()">
+
+  <p class="note">Final delivery arrangements, payment method and exact fulfilment details can be confirmed with Shirlee's Essentials on WhatsApp.</p>
+</div>
+
+<aside class="summary">
+  <h3>Your ritual</h3>
+  <div class="summary-row"><span>Package</span><strong id="sumRitual">Not selected</strong></div>
+  <div class="summary-row"><span>Commitment</span><strong id="sumBilling">Monthly</strong></div>
+  <div class="summary-row"><span>Shower gel</span><strong id="sumScent">Rain Bath</strong></div>
+  <div class="summary-row"><span>Candle</span><strong id="sumCandle">Decadent Coffee</strong></div>
+  <div class="summary-row"><span>Estimated commitment</span><strong id="sumTotal">KSh 0</strong></div>
+  <p class="note">Subscription price is calculated from the monthly package price multiplied by your selected commitment period.</p>
+  <a id="whatsapp" class="whatsapp" href="#" target="_blank" rel="noopener">JOIN THE RITUAL ON WHATSAPP</a>
+</aside>
+</div>
+</div>
+</section>
+
+<section class="section">
+<div class="container faq">
+<div class="section-head"><div class="eyebrow">Questions</div><h2>The finer details.</h2></div>
+<details><summary>How do I subscribe?</summary><p>Choose a ritual, select your commitment period and preferences, then tap the WhatsApp button. Shirlee's Essentials will receive a structured message with your selection.</p></details>
+<details><summary>Can I choose my favourite scent?</summary><p>Yes. The order builder lets you select Rain Bath, Pampering Vanilla, Rich Fruits or Caramel Drizzle. Candle scent can also be selected where a candle is included.</p></details>
+<details><summary>Can I choose monthly, quarterly, half-year or annual?</summary><p>Yes. The builder supports all four commitment periods. The displayed commitment total is the monthly subscription price multiplied by the selected number of months.</p></details>
+<details><summary>What happens after I send the WhatsApp order?</summary><p>Shirlee's Essentials can confirm availability, payment, delivery or collection arrangements and any final subscription terms directly with you.</p></details>
+</div>
+</section>
+
+<footer>
+<div class="container">
+<div class="footer-logo">SHIRLEE'S ESSENTIALS</div>
+<div class="footer-small">THE SHIRLEE'S RITUAL SOCIETY · Everyday self-care, made a ritual.</div>
+</div>
+</footer>
+
+<script>
+const rituals = {
+  "The Shower Ritual": {price:1199, desc:"500ml Shower Gel + Bathing Scrunchie"},
+  "The Signature Ritual": {price:3797, desc:"500ml Shower Gel + 100g Shea Butter + 100g Scented Candle + Bathing Scrunchie"},
+  "The Unwind Ritual": {price:2498, desc:"100g Shea Butter + 100g Scented Candle"},
+  "The Private Ritual": {price:5097, desc:"500ml Shower Gel + 100g Shea Butter + 200g Scented Candle + Bathing Scrunchie"}
+};
+let selected = "";
+
+function selectRitual(name){
+  selected = name;
+  document.getElementById("selectedRitual").textContent = name;
+  document.getElementById("selectedDescription").textContent = rituals[name].desc;
+  updateSummary();
+  document.getElementById("builder").scrollIntoView({behavior:"smooth", block:"start"});
+}
+
+function updateSummary(){
+  const months = Number(document.getElementById("billing").value);
+  const labels = {1:"Monthly · 1 month",3:"Quarterly · 3 months",6:"Half-year · 6 months",12:"Annual · 12 months"};
+  const scent = document.getElementById("scent").value;
+  const candle = document.getElementById("candle").value;
+  const name = document.getElementById("name").value.trim();
+  const location = document.getElementById("location").value.trim();
+
+  document.getElementById("sumRitual").textContent = selected || "Not selected";
+  document.getElementById("sumBilling").textContent = labels[months];
+  document.getElementById("sumScent").textContent = scent;
+  document.getElementById("sumCandle").textContent = candle;
+
+  const total = selected ? rituals[selected].price * months : 0;
+  document.getElementById("sumTotal").textContent = "KSh " + total.toLocaleString();
+
+  const message =
+`Hello Shirlee's Essentials,
+
+I would like to join The Shirlee's Ritual Society.
+
+Ritual: ${selected || "I need help choosing"}
+Commitment: ${labels[months]}
+Monthly price: KSh ${selected ? rituals[selected].price.toLocaleString() : "—"}
+Estimated commitment total: KSh ${total.toLocaleString()}
+Shower gel / scent: ${scent}
+Candle scent: ${candle}
+Name: ${name || "—"}
+Location: ${location || "—"}
+
+Please confirm availability, payment and delivery/collection details. Thank you.`;
+
+  document.getElementById("whatsapp").href = "https://wa.me/254721246036?text=" + encodeURIComponent(message);
+}
+
+updateSummary();
+</script>
+</body>
+</html>
